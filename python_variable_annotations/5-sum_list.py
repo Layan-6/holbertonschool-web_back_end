@@ -1,16 +1,10 @@
 #!/usr/bin/env python3
-"""Module for sum_list function."""
-
+"""Module for returns float from input"""
 from typing import List
 
+
 def sum_list(input_list: List[float]) -> float:
-    """
-    Takes a list of floats and returns their sum as a float.
-
-    Args:
-        input_list: A list of float numbers
-
-    Returns:
-        The sum of all floats in the input list as a float
-    """
+    """Function to sum all elements in a list of floats.
+    Return:
+    Sum of the numbers"""
     return sum(input_list)
